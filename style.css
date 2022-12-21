@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+
+body{
+   
+width:100%;
+background:  rgba(226, 197, 250, 0.45);
+overflow-x: hidden;
+
+
+}
+.site{
+   
+ margin-top: 15px;
+ display:flex;
+
+ 
+ 
+}
+.sidebar{
+
+ /* height: 100vh; */
+ 
+ /* width:500px; */
+ background: linear-gradient(0.25turn, #e66465, #9198e5);
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+
+
+}
+.sidebar .logo-details{
+ 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.sidebar .logo-details img{
+   
+    min-width: 100px;
+    padding-top: 35px;
+    padding-left: 25px;
+    
+}
+
+.sidebar .logo-details .title_name{
+
+ font-size:35px;
+ color:#FFFFF0; 
+
+ padding-top: 25px;
+ text-align: center;
+
+
+}
+
+.sidebar   .nav_links{
+
+ margin-top:50px;
+ margin-left: 25px;
+
+}
+
+.sidebar .nav_links li{
+
+    height:100px;
+    width:100%;
+    list-style: none;
+    display: flex;
+    transition:all 5s ease;
+
+
+}
+
+.sidebar .nav_links li a{
+ height:100%;
+width:100%;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+
+
+}
+.sidebar .nav_links li a img{
+ min-width: 50px;
+ margin-left: 5px;
+ 
+}
+.sidebar .nav_links li a .link_name{
+
+ color:#fff;
+ font-size:20px;
+ padding-left:15px;
+
+
+}
+.sidebar .nav_links li  :hover{
+
+   background:#87CEFA;
+   border-radius: 10px;
+   
+
+
+}
+
+
+.header-section{
+ 
+   background:#f5f5f5;
+   width: 100vw;
+   
+  
+}
+.header_nav{
+    height:250px;
+    background: linear-gradient(#e66465, #9198e5);
+    
+    
+    
+    /* align-items:center;
+    justify-content:space-between; */
+}
+.site_name{
+    padding-top:20px;
+    font-size:65px;
+    font-family: Monotype Corsiva;
+    color:#fff;
+    text-align:center;
+    
+    letter-spacing: 35px;
+}
+.header-text{
+ font-size:35px;
+ color:#fff;
+ font-family:cursive;
+ text-align:center;
+ padding-top:15px;
+
+
+}
+.header_list{
+    display:flex;
+   
+   
+    align-items: center;
+  justify-content: center;
+   
+    
+    padding-top: 20px;
+}
+.header_item{
+    margin-right: 150px;
+}
+.header_item:last-child{
+    padding-bottom: 35px;
+}
+.mail-list{
+  display:flex;
+  margin-left: -10px;
+   
+    
+}
+.mail-list_item{
+   padding: 5px 10px 5px 0px;
+}
+.mail-list_item_nav{
+    color:#fff;
+    
+}
+
+.social-list{
+    display:flex;
+    padding-bottom: 25px;
+}
+.social-list-item{
+    padding: 5px 20px 5px 0px;
+}
+
+.header_item_nav{
+    text-decoration: none;
+   font-size:25px;
+   position:relative;
+   top:15px;
+   color:#fff;
+}
+
+.content{
+   display:flex; 
+   width: 100%;
+
+}
+.my-carousel{
+    padding:0;
+}
+
+.my-carousel .carousel-item{
+     height: 800px;
+}
+.my-carousel .carousel-item img{
+    object-fit: cover;
+    
+    
+}
+.img-text{
+    font-size: 50px;
+    margin-top:120px;
+    font-style: italic;
+    text-align: left;
+    
+    color:white;
+}
+
+/* .imgSlider{
+  width:1300px;
+  height:700px;
+  background-image:url("images/brain.jpg");
+  background-size: 100% 100%;
+  animation:changeImage 60s linear infinite ; ;
+
+}
+@keyframes changeImage{
+
+     0% {
+        background-image:url("images/brain.jpg");
+     }
+
+     50% {
+        background-image:url("images/besmart.jpg");
+     }
+
+     75% {
+        background-image:url("images/positive-habits.jpg");
+     }
+
+
+
+} */
